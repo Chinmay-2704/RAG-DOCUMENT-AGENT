@@ -4,10 +4,6 @@ A clean, end-to-end **Retrieval-Augmented Generation (RAG)** agent with an inter
 Upload your documents (PDF / DOCX / TXT / MD), ask questions, and get cited answers — with an optional
 real-time **web search fallback** and a transparent **agent trace** that shows every step the AI took.
 
-> Inspired by [dhruvbajaj13/RAG-Based-AI-Document-Agent](https://github.com/dhruvbajaj13/RAG-Based-AI-Document-Agent),
-> rewritten as a simpler single-app architecture using **FAISS** (local vector DB) instead of Pinecone so
-> you can run it without extra cloud accounts.
-
 ---
 
 ## ✨ Features
@@ -97,8 +93,3 @@ See **PROJECT_GUIDE.md** for a full line-by-line explanation of every file and w
 | Web search  | Tavily                                           | LLM-optimized search API             |
 | Loaders     | pypdf, docx2txt                                  | Battle-tested document parsers       |
 
----
-
-## 📜 License
-
-MIT — do whatever you want, just don't blame me. 🙃
